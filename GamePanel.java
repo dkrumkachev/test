@@ -1,7 +1,8 @@
 package breakout;
 
-public class GamePanel {
+import javax.swing.*;
 
+public class GamePanel {
     public static void main(String[] args) {
 
     }
