@@ -1,6 +1,6 @@
 
 
 public class Brick {
-    int XBrickPos;
+    int brickXPos, brickYPos; // объявляем переменные позиции блока.
 
 }
