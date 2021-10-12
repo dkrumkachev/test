@@ -14,6 +14,13 @@ public class Brick {
     int xGap = 10; // промежуток по горизонтали.
     int yGap = 10; // промежуток по вертикали.
 
+    public Brick(int i, int j){
+
+        brickXPos = xOffset+brickWidth*j+xGap*j;  // горизонтальная координата левого верхнего угла блока.
+        brickYPos = yOffset+brickHeight*i+yGap*i; // вертикальная координата левого врехнего угла блока.
+
+    }
+
 
 }
 
