@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+      - Dmitriy
+      - Alexander
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
